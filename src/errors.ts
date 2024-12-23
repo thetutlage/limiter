@@ -7,8 +7,8 @@
  * file that was distributed with this source code.
  */
 
-import { Exception } from '@poppinss/utils'
 import type { I18n } from '@adonisjs/i18n'
+import { Exception } from '@adonisjs/core/exceptions'
 import type { HttpContext } from '@adonisjs/core/http'
 
 import type { LimiterResponse } from './response.js'

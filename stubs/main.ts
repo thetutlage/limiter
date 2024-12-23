@@ -7,6 +7,6 @@
  * file that was distributed with this source code.
  */
 
-import { getDirname } from '@poppinss/utils'
+import { getDirname } from '@adonisjs/core/helpers'
 
 export const stubsRoot = getDirname(import.meta.url)

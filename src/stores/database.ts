@@ -8,7 +8,7 @@
  */
 
 import string from '@adonisjs/core/helpers/string'
-import { RuntimeException } from '@poppinss/utils'
+import { RuntimeException } from '@adonisjs/core/exceptions'
 import type { QueryClientContract } from '@adonisjs/lucid/types/database'
 import { RateLimiterMySQL, RateLimiterPostgres } from 'rate-limiter-flexible'
 
